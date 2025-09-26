@@ -1,0 +1,69 @@
+<PixlyAnimation version="1.5">
+	<Info sheetWidth="2000" sheetHeight="2000" totalCollumns="4" totalRows="4" frameWidth="500" frameHeight="500" layerCount="4"/>
+	<Frames length="16">
+		<Frame duration="100" visible="true">
+			<Region x="0" y="0" width="500" height="500"/>
+			<Index linear="0" collumn="0" row="0"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="500" y="0" width="500" height="500"/>
+			<Index linear="1" collumn="1" row="0"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="1000" y="0" width="500" height="500"/>
+			<Index linear="2" collumn="2" row="0"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="1500" y="0" width="500" height="500"/>
+			<Index linear="3" collumn="3" row="0"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="0" y="500" width="500" height="500"/>
+			<Index linear="4" collumn="0" row="1"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="500" y="500" width="500" height="500"/>
+			<Index linear="5" collumn="1" row="1"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="1000" y="500" width="500" height="500"/>
+			<Index linear="6" collumn="2" row="1"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="1500" y="500" width="500" height="500"/>
+			<Index linear="7" collumn="3" row="1"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="0" y="1000" width="500" height="500"/>
+			<Index linear="8" collumn="0" row="2"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="500" y="1000" width="500" height="500"/>
+			<Index linear="9" collumn="1" row="2"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="1000" y="1000" width="500" height="500"/>
+			<Index linear="10" collumn="2" row="2"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="1500" y="1000" width="500" height="500"/>
+			<Index linear="11" collumn="3" row="2"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="0" y="1500" width="500" height="500"/>
+			<Index linear="12" collumn="0" row="3"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="500" y="1500" width="500" height="500"/>
+			<Index linear="13" collumn="1" row="3"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="1000" y="1500" width="500" height="500"/>
+			<Index linear="14" collumn="2" row="3"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="1500" y="1500" width="500" height="500"/>
+			<Index linear="15" collumn="3" row="3"/>
+		</Frame>
+	</Frames>
+</PixlyAnimation>
