@@ -1,0 +1,122 @@
+:root {
+    --imgSize: 50px;
+    --widthScreen: 97.7vh;
+}
+
+.rubik-#text-to-change {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Tomorrow", sans-serif;
+    font-style: normal;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-family: "Archivo Black", sans-serif;
+    font-style: normal;
+    font-family: "Vend Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background-image: url(images/mountain.jpg);
+    background-size: 100% 100%;
+    /* Stretches to fill, can distort */
+    background-repeat: no-repeat;
+    min-height: var(--widthScreen);
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 60px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+}
+
+#blurr {
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(6px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Example styling */
+    z-index: 1000;
+    height: 50px;
+}
+
+#text-to-change {
+    animation-duration: 5ms;
+    position: block;
+    letter-spacing: 4px;
+    transform:
+        translateY(-30px);
+    font-size: 45px;
+    height: 47px;
+    word-spacing: 1px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to bottom,
+            #c1c7ff,
+            #7171ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(19, 19, 19);
+    /* This is key for a smooth effect */
+}
+
+p {
+    margin: auto;
+    width:fit-content;
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+}
+
+#me {
+    display: block;
+    /* Treat the image as a block-level element */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    outline: solid 5px rgb(176, 176, 255);
+    /* Changes the mouse cursor to a pointer */
+    cursor: pointer;
+    /* This is key for a smooth effect */
+    box-shadow: 0 0 20px 20px rgba(255, 255, 255, 0.7);
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+li:hover {
+    text-shadow: 2px 2px rgb(22, 45, 255);
+}
+
+#holder {
+    border:
+        solid,
+        rgb(36, 36, 36),
+        3px;
+    width: 50%;
+    margin: auto;
+    height: 500px;
+    background:
+        linear-gradient(to top,
+            rgb(220, 220, 220),
+            white);
+    border-radius: 15px;
+    padding: 10px;
+}
